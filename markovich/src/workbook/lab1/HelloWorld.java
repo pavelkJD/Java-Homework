@@ -1,4 +1,4 @@
-package homework.lab1;
+package workbook.lab1;
 
 public class HelloWorld {
     public static void main(String[] args) {
