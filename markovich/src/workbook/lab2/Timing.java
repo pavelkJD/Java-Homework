@@ -1,4 +1,4 @@
-package homework.lab2;
+package workbook.lab2;
 
 public class Timing {
     public static void main(String[] args) {
