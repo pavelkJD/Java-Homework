@@ -1,5 +1,9 @@
 package workbook.lab2;
 
+/**
+ * Продолжить приведённый пример, добавить расчет и вывод суток и недель.
+ */
+
 public class Timing {
     public static void main(String[] args) {
         int s = 15553450;
