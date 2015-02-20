@@ -1,7 +1,7 @@
 package lab2;
 
-/**
- * Created by KPS on 20.02.2015.
+/*
+Имеется промежуток времени в секундах. Следует вывести его на страницу в виде недель, дней, часов, минут и секунд.
  */
 public class DayWeek {
     public static void main(String[] args) {
@@ -14,7 +14,6 @@ public class DayWeek {
         int d = (h - hour) / 24;
         int day = d % 7;
         int w = (d - day) / 7;
-        System.out.println(s + "s" + " " + m + "m" + " " + h + "h" + " " + d + "d" + " " + w + "w");
         System.out.println(w + " нед. " + day + " дн. " + hour + " ч. " + min + " мин. " + sec + " сек. ");
     }
 }

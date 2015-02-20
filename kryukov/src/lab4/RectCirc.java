@@ -1,7 +1,7 @@
 package lab4;
 
-/**
- * Created by KPS on 21.02.2015.
+/*
+Имеется прямоугольное отверстие размерами а на b. Определить, можно ли его полностью закрыть круглой картонкой радиусом r.
  */
 public class RectCirc {
     public static void main(String[] args) {

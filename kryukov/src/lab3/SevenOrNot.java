@@ -1,7 +1,7 @@
 package lab3;
 
-/**
- * Created by KPS on 20.02.2015.
+/*
+ Создайте число. Определите, является ли последняя цифра числа семеркой.
  */
 public class SevenOrNot {
     public static void main(String[] args) {
