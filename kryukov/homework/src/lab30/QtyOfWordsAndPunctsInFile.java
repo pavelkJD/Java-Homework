@@ -21,7 +21,7 @@ public class QtyOfWordsAndPunctsInFile {
         fileInputStream.close();
 
         String text = strBuffer.toString();
-        String[] words = text.trim().replace(".", "").replace(",", "").split(" +");
+        String[] words = text.trim().replace("", "").replace(",", "").split(" +");
         System.out.print("В тексте " + words.length + " слов(а)");
 
         int numCommas = 0;

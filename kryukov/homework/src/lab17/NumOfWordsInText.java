@@ -7,7 +7,7 @@ package lab17;
 public class NumOfWordsInText {
     public static void main(String[] args) {
         String text = "  Имеется строка с    текстом  . Подсчитать   количество слов в тексте. ";
-        String[] words = text.trim().replace(".", "").replace(",", "").split(" +");
+        String[] words = text.trim().replace("", "").replace(",", "").split(" +");
         System.out.print("В тексте " + words.length + " слов");
     }
 }
